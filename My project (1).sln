@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinematicSoup.SceneFusion.Editor", "KinematicSoup.SceneFusion.Editor.csproj", "{8376CFE5-DAD1-C89B-480B-F3D6FC3FC7CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinematicSoup.SceneFusion", "KinematicSoup.SceneFusion.csproj", "{FD1580C0-A527-434F-8C2C-E86A20C6BFF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8376CFE5-DAD1-C89B-480B-F3D6FC3FC7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8376CFE5-DAD1-C89B-480B-F3D6FC3FC7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8376CFE5-DAD1-C89B-480B-F3D6FC3FC7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8376CFE5-DAD1-C89B-480B-F3D6FC3FC7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1580C0-A527-434F-8C2C-E86A20C6BFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1580C0-A527-434F-8C2C-E86A20C6BFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1580C0-A527-434F-8C2C-E86A20C6BFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1580C0-A527-434F-8C2C-E86A20C6BFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

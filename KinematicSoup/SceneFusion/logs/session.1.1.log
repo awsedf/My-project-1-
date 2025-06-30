@@ -1,0 +1,75 @@
+2025-06-29 18:57:45.3497 [ERROR] FileNotFoundException: Could not load the file 'Cinemachine'.
+System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly, System.Threading.StackCrawlMark& stackMark) (at <1071a2cb0cb3433aae80a793c277a048>:0)
+System.AppDomain.Load (System.String assemblyString) (at <1071a2cb0cb3433aae80a793c277a048>:0)
+(wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+System.Reflection.Assembly.Load (System.String assemblyString) (at <1071a2cb0cb3433aae80a793c277a048>:0)
+KS.SceneFusion2.Unity.Editor.sfComponentUtils.GetMonobehaviourTypeByName (System.String typeName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfComponentUtils.cs:223)
+KS.SceneFusion2.Unity.Editor.sfComponentUtils.AddComponent (UnityEngine.GameObject gameObject, System.String name) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfComponentUtils.cs:102)
+UnityEngine.Debug:LogException(Exception)
+KS.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.Reactor.ksLog:Log(String, String, Exception, Level, Object)
+KS.Reactor.ksLog:Error(String, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfComponentUtils:LogAddComponentWarning(String, String, Exception) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfComponentUtils.cs:263)
+KS.SceneFusion2.Unity.Editor.sfComponentUtils:AddComponent(GameObject, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfComponentUtils.cs:117)
+KS.SceneFusion2.Unity.Editor.sfComponentTranslator:GetOrAddComponent(GameObject, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfComponentTranslator.cs:943)
+KS.SceneFusion2.Unity.Editor.sfComponentTranslator:InitializeComponent(GameObject, sfObject, sfComponentFinder) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfComponentTranslator.cs:831)
+KS.SceneFusion2.Unity.Editor.sfGameObjectTranslator:InitializeGameObject(sfObject, Scene) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfGameObjectTranslator.cs:2193)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator:OnCreateHierarchy(sfObject) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:663)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator:OnCreate(sfObject, Int32) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:250)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:OnCreate(sfObject, Int32) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:271)
+KS.SceneFusion2.Client.sfSession:InvokeOnCreate(sfObject, Int32)
+KS.SceneFusion2.Client.sfSession:HandleCreate(ksMultiType[])
+KS.SceneFusion2.Client.RPCManager:ProcessInRPCs()
+KS.SceneFusion2.Client.sfSession:ProcessRPCs(Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:474)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2025-06-29 18:57:45.3567 [ERROR] Error adding component 'Cinemachine#Cinemachine.CinemachineBrain'.: Could not load the file 'Cinemachine'.
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly, System.Threading.StackCrawlMark& stackMark) [0x00016] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00002] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at KS.SceneFusion2.Unity.Editor.sfComponentUtils.GetMonobehaviourTypeByName (System.String typeName) [0x00032] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfComponentUtils.cs:223 
+  at KS.SceneFusion2.Unity.Editor.sfComponentUtils.AddComponent (UnityEngine.GameObject gameObject, System.String name) [0x0002d] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfComponentUtils.cs:102 
+2025-06-29 18:57:45.3607 [WARNING] Unable to load component 'Cinemachine.Cinemachine.CinemachineBrain'.
+2025-06-29 18:57:45.3766 [WARNING] Unable to load UnityEngine.Sprite at 'Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png'[1].
+2025-06-29 18:57:45.4006 [WARNING] Unable to load UnityEngine.Sprite at 'Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png'[1].
+2025-06-29 18:57:45.4325 [ERROR] FileNotFoundException: Could not load the file 'Cinemachine'.
+System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly, System.Threading.StackCrawlMark& stackMark) (at <1071a2cb0cb3433aae80a793c277a048>:0)
+System.AppDomain.Load (System.String assemblyString) (at <1071a2cb0cb3433aae80a793c277a048>:0)
+(wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+System.Reflection.Assembly.Load (System.String assemblyString) (at <1071a2cb0cb3433aae80a793c277a048>:0)
+KS.SceneFusion2.Unity.Editor.sfComponentUtils.GetMonobehaviourTypeByName (System.String typeName) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfComponentUtils.cs:223)
+KS.SceneFusion2.Unity.Editor.sfComponentUtils.AddComponent (UnityEngine.GameObject gameObject, System.String name) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfComponentUtils.cs:102)
+UnityEngine.Debug:LogException(Exception)
+KS.Reactor.ksLog:LogToUnity(Level, String, String, Exception, Object)
+KS.Reactor.ksLog:HandleLog(String, String, String, Exception, Level, Object)
+KS.Reactor.ksLog:Log(String, String, Exception, Level, Object)
+KS.Reactor.ksLog:Error(String, String, Exception)
+KS.SceneFusion2.Unity.Editor.sfComponentUtils:LogAddComponentWarning(String, String, Exception) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfComponentUtils.cs:263)
+KS.SceneFusion2.Unity.Editor.sfComponentUtils:AddComponent(GameObject, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfComponentUtils.cs:117)
+KS.SceneFusion2.Unity.Editor.sfComponentTranslator:GetOrAddComponent(GameObject, String) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfComponentTranslator.cs:943)
+KS.SceneFusion2.Unity.Editor.sfComponentTranslator:InitializeComponent(GameObject, sfObject, sfComponentFinder) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfComponentTranslator.cs:831)
+KS.SceneFusion2.Unity.Editor.sfGameObjectTranslator:InitializeGameObject(sfObject, Scene) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfGameObjectTranslator.cs:2193)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator:OnCreateHierarchy(sfObject) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:663)
+KS.SceneFusion2.Unity.Editor.sfSceneTranslator:OnCreate(sfObject, Int32) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/Translators/sfSceneTranslator.cs:250)
+KS.SceneFusion2.Unity.Editor.sfObjectEventDispatcher:OnCreate(sfObject, Int32) (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/sfObjectEventDispatcher.cs:271)
+KS.SceneFusion2.Client.sfSession:InvokeOnCreate(sfObject, Int32)
+KS.SceneFusion2.Client.sfSession:HandleCreate(ksMultiType[])
+KS.SceneFusion2.Client.RPCManager:ProcessInRPCs()
+KS.SceneFusion2.Client.sfSession:ProcessRPCs(Single)
+KS.SceneFusion2.Client.sfBaseService:Update(Single)
+KS.SceneFusion2.Unity.Editor.SceneFusion:Update() (at ./Packages/com.kinematicsoup.scenefusion2lite/Source/Editor/SceneFusion.cs:474)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+2025-06-29 18:57:45.4335 [ERROR] Error adding component 'Cinemachine#Cinemachine.CinemachineVirtualCamera'.: Could not load the file 'Cinemachine'.
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly, System.Threading.StackCrawlMark& stackMark) [0x00016] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00002] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at KS.SceneFusion2.Unity.Editor.sfComponentUtils.GetMonobehaviourTypeByName (System.String typeName) [0x00032] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfComponentUtils.cs:223 
+  at KS.SceneFusion2.Unity.Editor.sfComponentUtils.AddComponent (UnityEngine.GameObject gameObject, System.String name) [0x0002d] in .\Packages\com.kinematicsoup.scenefusion2lite\Source\Editor\sfComponentUtils.cs:102 
+2025-06-29 18:57:45.4345 [WARNING] Unable to load component 'Cinemachine.Cinemachine.CinemachineVirtualCamera'.
+2025-06-29 18:57:45.4385 [WARNING] Unable to load UnityEngine.Sprite at 'Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png'[1].

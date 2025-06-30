@@ -1,0 +1,14 @@
+*.unity binary
+*.prefab binary
+*.mat binary
+*.asset binary
+*.meta binary
+*.fbx binary
+*.jpg binary
+*.png binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.aif binary
+*.controller binary
